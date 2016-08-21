@@ -1,0 +1,43 @@
+
+/* Colors */
+
+/*Background (bg)
+
+* According to OOCSS by making these classes you can now apply backgrounds to any element you want. Buttons, containers, paragraphs etc. 
+
+*/
+
+*[class*="bg-"] {transition: background 0.7s linear;}
+
+.bg-white {background:#fff;}
+.bg-black {background:#000;}
+.bg-red {background:#ff0000;}
+.bg-green {background:#00c;}
+.bg-orange {background:#ff9900;}
+.bg-yellow {background:#ff00;}
+.bg-blue {background:#33f;}
+.bg-grey {background:#ccc;}
+.bg-lightgrey {background:#e9e9e9;}
+.bg-pink {background:#ff0066;}
+
+
+.bg-pink:hover {background:red;} /*Evalue - how can i make it do the same thing but style it better. */
+
+.bg-brown {background:#996600;}
+
+
+/*Font Colors (fc)
+
+* According to OOCSS by making these classes you can now apply colors to any element you want. Buttons, containers, paragraphs etc. 
+
+*/
+
+.fc-white {color:#fff;}
+.fc-black {color:#000;}
+.fc-red {color:#ff0000;}
+.fc-green {color:#00c;}
+.fc-orange {color:#ff9900;}
+.fc-yellow {color:#ff00;}
+.fc-blue {color:#33f;}
+.fc-pink {color:#ff0066;}
+.fc-brown {color:#996600;}
